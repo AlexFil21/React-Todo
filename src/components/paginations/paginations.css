@@ -1,0 +1,26 @@
+.paginat {
+    margin-top: 2%;
+    list-style: none;
+}
+.paginat-group {
+    display: inline-block;
+    border: 1px solid rgb(143, 141, 141);
+    padding: 3px 7px 3px 7px;
+}
+
+.paginat-group.active {
+  background: rgb(29, 29, 241);
+  color: aliceblue;
+}
+.paginatContainer {
+    position: relative;
+    margin-bottom: 7%;;
+    background-color: #977d7d;
+    align-items: center;
+    justify-content: center;
+}
+.paginatContainer div{
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+}
